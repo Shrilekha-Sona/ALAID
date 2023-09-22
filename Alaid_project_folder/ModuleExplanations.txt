@@ -1,0 +1,27 @@
+Module Explanations
+MODULE 1: Getting Alumni Details
+	The alumni details namely name, department, batch, email and mobile number are stored in alumni_profile table of the database. 
+
+MODULE 2: Getting Student Details
+	The student details namely name, department, batch, year of studying, semester pursuing, email and mobile number are stored in stu_profile table of the database.
+
+MODULE 3: Getting Librarian Details
+	The librarian details namely name, email and mobile number are stored in lib_profile table of the database.
+
+MODULE 4: Viewing Details
+	The details stored in the alumni_profile, stu_profile and lib_profile are viewed in a table separately. 
+
+MODULE 5: Getting Book Details
+	The book description including semester, course name, book name, author name, edition, copies, type of copies, availability status, email are stored in book_details table in the database.
+
+MODULE 6: Searching for book
+	The user searches for the book by entering any keyword related to that book’s description and the corresponding books with their details get displayed in the screen in the form of a table.
+ 
+MODULE 7: Searching for alumni
+	The information got from the book table includes the email ID of the alumni who owns it. So, with that ID the user searches for the alumni details in the alumni search screen which gives the complete details of the particular alumni as the result.
+
+MODULE 8: Updating availability status
+	The alumni should update the availability status of the book then and there to make the students know about it. Hence the updation is done in separate page which then get updated in the database.
+
+MODULE 9: Getting rating and feedback
+	To evaluate user experience, the rating page is given so that the star rating count and feedback could be got from the user. Further  modifications and improvements could be done through this feedback which are saved in the rating table.
